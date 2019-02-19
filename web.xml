@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+ Licensed to the Apache Software Foundation (ASF) under one or more
+  contributor license agreements.  See the NOTICE file distributed with
+  this work for additional information regarding copyright ownership.
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+                      http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+  version="3.0"
+  metadata-complete="true">
+
+  <display-name>Welcome to Tomcat</display-name>
+  <description>
+     Welcome to Tomcat
+  </description>
+  <servlet>
+      <servlet-name>sample</servlet-name>
+      <servlet-class>sample</servlet-class>
+    </servlet>
+<servlet-mapping>
+        <servlet-name>sample</servlet-name>
+        <url-pattern>/sample</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+      <servlet-name>FindMax</servlet-name>
+      <servlet-class>FindMax</servlet-class>
+    </servlet>
+<servlet-mapping>
+        <servlet-name>FindMax</servlet-name>
+        <url-pattern>/max</url-pattern>
+        <load-on-startup>1</load-on-startup>
+    </servlet-mapping>
+
+    <servlet>
+      <servlet-name>circle</servlet-name>
+      <servlet-class>circle</servlet-class>
+    </servlet>
+<servlet-mapping>
+        <servlet-name>circle</servlet-name>
+        <url-pattern>/circle</url-pattern>
+        <load-on-startup>1</load-on-startup>
+    </servlet-mapping>
+
+    <servlet>
+      <servlet-name>sumDigits</servlet-name>
+      <servlet-class>sumDigits</servlet-class>
+    </servlet>
+<servlet-mapping>
+        <servlet-name>sumDigits</servlet-name>
+        <url-pattern>/sumDigits</url-pattern>
+        <load-on-startup>1</load-on-startup>
+    </servlet-mapping>
+	
+	<servlet>
+      <servlet-name>PrintData</servlet-name>
+      <servlet-class>PrintData</servlet-class>
+    </servlet>
+<servlet-mapping>
+        <servlet-name>PrintData</servlet-name>
+        <url-pattern>/print</url-pattern>
+        <load-on-startup>1</load-on-startup>
+    </servlet-mapping>
+	
+	<servlet>
+      <servlet-name>noOfDigits</servlet-name>
+      <servlet-class>noOfDigits</servlet-class>
+    </servlet>
+<servlet-mapping>
+        <servlet-name>noOfDigits</servlet-name>
+        <url-pattern>/noOfDigits</url-pattern>
+        <load-on-startup>1</load-on-startup>
+    </servlet-mapping>
+
+</web-app>
