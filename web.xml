@@ -86,4 +86,94 @@
         <load-on-startup>1</load-on-startup>
     </servlet-mapping>
 
+    <servlet>
+      <servlet-name>ImageServlet</servlet-name>
+      <servlet-class>ImageServlet</servlet-class>
+    </servlet>
+<servlet-mapping>
+        <servlet-name>ImageServlet</servlet-name>
+        <url-pattern>/image</url-pattern>
+        <load-on-startup>1</load-on-startup>
+    </servlet-mapping>
+
+    <servlet>
+      <servlet-name>ResultServlet</servlet-name>
+      <servlet-class>ResultServlet</servlet-class>
+    </servlet>
+<servlet-mapping>
+        <servlet-name>ResultServlet</servlet-name>
+        <url-pattern>/result</url-pattern>
+        <load-on-startup>1</load-on-startup>
+    </servlet-mapping>
+
+    <servlet>
+      <servlet-name>session</servlet-name>
+      <servlet-class>session</servlet-class>
+    </servlet>
+<servlet-mapping>
+        <servlet-name>session</servlet-name>
+        <url-pattern>/session</url-pattern>
+        <load-on-startup>1</load-on-startup>
+    </servlet-mapping>
+
+    <servlet>
+      <servlet-name>servlet1</servlet-name>
+      <servlet-class>Login</servlet-class>
+    </servlet>
+<servlet-mapping>
+        <servlet-name>servlet1</servlet-name>
+        <url-pattern>/servlet1</url-pattern>
+        <load-on-startup>1</load-on-startup>
+    </servlet-mapping>
+
+    <servlet>
+      <servlet-name>servlet2</servlet-name>
+      <servlet-class>WelcomeServlet</servlet-class>
+    </servlet>
+<servlet-mapping>
+        <servlet-name>servlet2</servlet-name>
+        <url-pattern>/servlet2</url-pattern>
+        <load-on-startup>1</load-on-startup>
+    </servlet-mapping>
+
+    <servlet>
+      <servlet-name>greet</servlet-name>
+      <servlet-class>greet</servlet-class>
+    </servlet>
+<servlet-mapping>
+        <servlet-name>greet</servlet-name>
+        <url-pattern>/greet</url-pattern>
+        <load-on-startup>1</load-on-startup>
+    </servlet-mapping>
+
+    <servlet>
+      <servlet-name>header</servlet-name>
+      <servlet-class>Header</servlet-class>
+    </servlet>
+<servlet-mapping>
+        <servlet-name>header</servlet-name>
+        <url-pattern>/header</url-pattern>
+        <load-on-startup>1</load-on-startup>
+    </servlet-mapping>
+
+    <servlet>
+      <servlet-name>cookie</servlet-name>
+      <servlet-class>CookieServlet</servlet-class>
+    </servlet>
+<servlet-mapping>
+        <servlet-name>cookie</servlet-name>
+        <url-pattern>/cookie</url-pattern>
+        <load-on-startup>1</load-on-startup>
+    </servlet-mapping>
+
+    <servlet>
+      <servlet-name>Uppercase</servlet-name>
+      <servlet-class>Uppercase</servlet-class>
+    </servlet>
+<servlet-mapping>
+        <servlet-name>Uppercase</servlet-name>
+        <url-pattern>/uppercase</url-pattern>
+        <load-on-startup>1</load-on-startup>
+    </servlet-mapping>
+
 </web-app>
